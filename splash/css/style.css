@@ -1939,4 +1939,35 @@ display: inline-block;
 	animation: color 0.7s linear forwards infinite;
   
 }
+.japan{
+   height: 350px;
+   width: 100%;
+  margin: 15px 0;
+}
+.animate-box a:hover{
+  opacity: 0.5;
+}
+.feature-center{
+  background-color: #edf2f6;
+  padding: 0;
+}
+.icon img{
+  width: 245px;
+  height: 185px;
+
+}
+.tour-price{
+  border: #dee5e7 solid 2px;
+  padding: 10px;
+}
+.tour-pricing{
+  color: black;
+  font-size: 24px;
+  background-color:yellow;
+  display: inline-block;
+  padding: 0 15px;
+  margin: 10px 0;
+ line-height: 70px;
+
+}
 /*# sourceMappingURL=style.css.map */
