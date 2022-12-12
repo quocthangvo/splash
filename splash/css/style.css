@@ -1933,7 +1933,6 @@ display: inline-block;
 }
 .pull-left >a{
   color:  #fff;
-	
 	font-weight: 500;
 	margin: 0;
 	animation: color 0.7s linear forwards infinite;
@@ -1967,9 +1966,11 @@ display: inline-block;
   display: inline-block;
   padding: 0 15px;
   margin: 10px 0;
- line-height: 70px;
-
+ line-height: 50px;
+border: solid orange 2px;
 }
-
+.tour-price >h3{
+  color: red;
+}
 
 /*# sourceMappingURL=style.css.map */
