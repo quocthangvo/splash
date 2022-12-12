@@ -1033,7 +1033,7 @@ form label {
   z-index: 1901;
   width: 270px;
   background: black;
-  top: 0;
+  
   right: 0;
   top: 0;
   bottom: 0;
@@ -1936,7 +1936,6 @@ display: inline-block;
 	font-weight: 500;
 	margin: 0;
 	animation: color 0.7s linear forwards infinite;
-  
 }
 .japan{
    height: 350px;
