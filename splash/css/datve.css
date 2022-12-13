@@ -1,0 +1,172 @@
+#wrap-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0;
+    margin-top: 150px;
+  }
+  .ticket {
+    transform: translateY(120px);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+  }
+  .form {
+    padding: 30px;
+  }
+  .form-switch {
+    display: flex;
+    align-items: center;
+  }
+  
+  .one-way {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px 30px;
+    background-color: white;
+  }
+  
+  .two-way {
+    padding: 5px 40px;
+    background-color: #cdcdcd;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .one-way span {
+    color: #ffbd1a;
+    font-weight: 500;
+  }
+  .two-way span {
+    color: #6666;
+    font-weight: 500;
+  }
+  
+  .form-main {
+    display: flex;
+    margin-top: 20px;
+  }
+  .form-left,
+  .form-mid,
+  .form-right {
+    width: calc(100% / 3);
+  }
+  .left-item {
+    margin-right: 55px;
+  }
+  
+  .left-item select {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 30px 0 10px;
+    box-shadow: none;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .mid-item input {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 30px 0 10px;
+    box-shadow: none;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  } 
+  .mid-item {
+    margin-right: 55px;
+  }
+  
+  .form-right {
+    display: flex;
+    gap: 0 20px;
+  }
+  .right-item {
+    width: calc(100% / 3);
+  }
+  .right-item select {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 30px 0 10px;
+    box-shadow: none;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  .right-item__title,
+  .left-item__title,
+  .mid-item__title {
+    color: #cdcdcd;
+    font-weight: bold;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dashed #777;
+    padding-top: 15px;
+    margin-top: 10px;
+  }
+  
+  .bottom span {
+    display: block;
+    float: left;
+    background: url(https://247vn.vn/Themes/Ve247_vn/Content/images/ic/icon-commitment.svg)
+      no-repeat left center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    color: #fff;
+    padding-left: 50px;
+    margin-top: 7px;
+    font-weight: 500;
+  }
+  
+  .bottom input {
+    padding: 10px 154px 10px 25px;
+    background: #d8a31c
+      url(https://247vn.vn/Themes/Ve247_vn/Content/images/ic/icon-send-mail.svg)
+      no-repeat right 25px center;
+    font-size: 22px;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .bottom input:hover {
+    opacity: 0.8;
+  }
+  @media screen and (max-width: 1023px) {
+    .form-main {
+      flex-direction: column;
+    }
+    .form-left,
+    .form-mid,
+    .form-right {
+      width: 100%;
+    }
+  
+    .left-item,
+    .mid-item {
+      margin-right: unset;
+    }
+    .bottom {
+      flex-direction: column;
+    }
+    .bottom input {
+      margin-top: 20px;
+    }
+  }
